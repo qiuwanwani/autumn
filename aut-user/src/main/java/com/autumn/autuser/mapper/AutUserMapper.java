@@ -1,7 +1,8 @@
 package com.autumn.autuser.mapper;
 
+import com.autumn.autuser.entity.AutUser;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.leafautumn.aut_user.entity.AutUser;
+
 
 /**
  * (AutUser)表数据库访问层

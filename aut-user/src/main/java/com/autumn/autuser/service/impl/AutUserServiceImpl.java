@@ -1,10 +1,10 @@
 package com.autumn.autuser.service.impl;
 
+import com.autumn.autuser.entity.AutUser;
+import com.autumn.autuser.mapper.AutUserMapper;
+import com.autumn.autuser.service.AutUserService;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.leafautumn.aut_user.entity.AutUser;
-import com.leafautumn.aut_user.mapper.AutUserMapper;
-import com.leafautumn.aut_user.service.AutUserService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
