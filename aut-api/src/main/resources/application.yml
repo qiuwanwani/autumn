@@ -1,1 +1,3 @@
-spring.application.name=aut-api
+spring:
+  application:
+    name: aut-api
