@@ -10,6 +10,14 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>aut-api</name>
     <description>aut-api</description>
+    <dependencies>
+        <dependency>
+            <groupId>com.autumn</groupId>
+            <artifactId>aut-user</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
     <modelVersion>4.0.0</modelVersion>
 
     <build>
