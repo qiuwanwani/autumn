@@ -19,6 +19,10 @@
     <packaging>pom</packaging>
     <modules>
         <module>aut-api</module>
+        <module>aut-blog</module>
+        <module>aut-common</module>
+        <module>aut-oj</module>
+        <module>aut-user</module>
     </modules>
     <dependencies>
         <dependency>
@@ -29,6 +33,26 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.mysql</groupId>
+            <artifactId>mysql-connector-j</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <scope>annotationProcessor</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-spring-boot3-starter</artifactId>
+            <version>3.5.7</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>2.0.53</version>
         </dependency>
     </dependencies>
 
