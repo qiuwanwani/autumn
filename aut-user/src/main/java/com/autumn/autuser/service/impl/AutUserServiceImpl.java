@@ -6,4 +6,5 @@ import com.autumn.autuser.service.AutUserService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 
 public class AutUserServiceImpl extends ServiceImpl<AutUserMapper, AutUser> implements AutUserService {
+
 }
