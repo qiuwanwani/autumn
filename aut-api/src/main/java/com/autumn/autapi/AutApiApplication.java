@@ -1,13 +1,13 @@
-package com.autumn.autumn;
+package com.autumn.autapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class AutumnApplication {
+public class AutApiApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(AutumnApplication.class, args);
+        SpringApplication.run(AutApiApplication.class, args);
     }
 
 }

@@ -1,10 +1,10 @@
-package com.autumn.autumn;
+package com.autumn.autapi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class AutumnApplicationTests {
+class AutApiApplicationTests {
 
     @Test
     void contextLoads() {
