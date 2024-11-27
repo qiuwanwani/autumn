@@ -1,20 +1,13 @@
-package com.autumn.autuser.entity;
+package com.autumn.autuser.vo;
 
-import com.baomidou.mybatisplus.annotation.TableId;
-import com.baomidou.mybatisplus.annotation.TableName;
-import com.baomidou.mybatisplus.extension.activerecord.Model;
 import lombok.Data;
 
 import java.util.Date;
-
-
 @Data
-@TableName("aut_user")
-public class AutUser extends Model<AutUser> {
+public class UserDetailVO {
     /**
      * 主键
      */
-    @TableId
     private Long id;
 
     /**
@@ -27,10 +20,6 @@ public class AutUser extends Model<AutUser> {
      */
     private String account;
 
-    /**
-     * 密码
-     */
-    private String password;
 
     /**
      * 头像
@@ -74,9 +63,4 @@ public class AutUser extends Model<AutUser> {
      */
     private Integer admin;
 
-    /**
-     * 盐值
-     */
-    private String salt;
 }
-
