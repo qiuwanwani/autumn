@@ -13,9 +13,23 @@
     <dependencies>
         <dependency>
             <groupId>com.autumn</groupId>
+            <artifactId>aut-blog</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.autumn</groupId>
+            <artifactId>aut-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.autumn</groupId>
+            <artifactId>aut-oj</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.autumn</groupId>
             <artifactId>aut-user</artifactId>
             <version>0.0.1-SNAPSHOT</version>
-            <scope>compile</scope>
         </dependency>
     </dependencies>
     <modelVersion>4.0.0</modelVersion>
